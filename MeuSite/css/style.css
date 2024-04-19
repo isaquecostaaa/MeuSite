@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background: rgb(23, 23, 83);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 600ms;
+}
+
+.home {
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 0;
+}
+nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-right: 10px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    height: 50px;   
+}
+
+.botoes {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    width: 81px;
+    transition: 500ms; 
+}
+
+ nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    width: 81px;
+ }
+
+ nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.15)
+ }
+
+
