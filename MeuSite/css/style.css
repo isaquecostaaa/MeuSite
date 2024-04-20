@@ -4,59 +4,91 @@
 }
 
 .cabecalho {
-    background: rgb(23, 23, 83);
-    height: 50px;
+    background: #333;
+    height: 70px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo {
+.logobox {
+    padding-left: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 600ms;
 }
 
-.home {
-    font-family: sans-serif;
-    color: #fff;
-    text-decoration: none;
-    padding: 6px 0;
+
+.logo {
+  width: 170px;
+
 }
+
+
 nav {
     justify-content: center;
     align-items: center;
     display: flex;
-    padding-right: 10px;
+    padding-right: 60px;
     
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    height: 50px;   
+    height: 70px;   
 }
 
 .botoes {
     display: flex;
-    font-family: sans-serif;
+    font-family: "montserrat",sans-serif;
     justify-content: center;
     align-items: center;
-    width: 81px;
     transition: 500ms; 
+    margin: 0 10px 0 10px;
 }
 
  nav ul li a {
-    color: #fff;
+    color: #a6abb6;
     text-decoration: none;
-    font-weight: bold;
     text-align: center;
-    padding: 15px 0 15px 0;
-    width: 81px;
+    transition: 1000ms;
+    padding: 20px 2px 20px 2px;
  }
 
  nav ul li:hover {
-    background-color: rgba(0, 0, 0, 0.15)
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 16px 11px rgba(0, 0, 0, 0.5);
+
+ }
+
+ nav ul li a:hover {
+    color: #09e85e;
+ }
+
+ .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+    background-color: #fff;
+    height: 55px;
+    width: 125px;
+    border-radius: 10px;
+    transition: 500ms;
+ }
+
+ .contato a {
+    width: 125px;
+    padding: 22px 0 22px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    font-family: "montserrat";
+ }
+
+ .contato:hover {
+    box-shadow: 1px 1px 15px 1px #09e85e;
  }
 
 
